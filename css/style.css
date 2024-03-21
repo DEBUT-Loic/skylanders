@@ -1,0 +1,195 @@
+:root {
+    --skyLogo:#00255B;
+
+    --eau:#8EADDC;
+    --eauBorder:#265044;
+    --terre: #D49F77;
+    --terreBorder: #7C3815;
+    --tech: #FEC085;
+    --techBorder: #C06E24;
+    --air: #97BFE2;
+    --airBorder: #2A86AF;
+    --vie: #9CCD96;
+    --vieBorder: #528E48;
+    --mort-vivant:#A0A1B3;
+    --mort-vivantBorder: #6D6B6C;
+    --feu: #E68E76;
+    --feuBorder: #B53A32;
+    --magie: #B896C9;
+    --magieBorder: #4E234E;
+    --lengendary: #50515A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;
+    background-size: 100vw 100vh;
+    font-family: skylandersReg;
+}
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+header .logo {
+    width: 300px;
+    margin: 5px 0;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #79C2EC;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px 0;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+header form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+form #btnForm, #reset {
+    cursor: pointer;
+    background: white;
+    color: var(--skyLogo);
+    border: 1px solid var(--skyLogo);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: skylandersReg;
+    transition: border 0.5s, color 0.5s, background 0.5s;
+}
+form #btnForm:hover {
+    color: white;
+    background: var(--skyLogo);
+    border-color: white;
+}
+#reset {
+    color: red;
+    border-color: red;
+}
+#reset:hover {
+    color: white;
+    background: red;
+    border-color: white;
+}
+
+form #check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1#count {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Cartes */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+main article {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 285px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+main h1 {
+    text-align: center;
+}
+main .imgCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+main img {
+    width: 150px;
+    margin: 0 auto;
+}
+main .stats {
+    display: flex;
+}
+main .stats > * {
+    margin: 0 auto;
+}
+
+/* Carte élément */
+.eau {
+    background: var(--eau);
+    border-color: var(--eauBorder);
+}
+.terre {
+    background: var(--terre);
+    border-color: var(--terreBorder);
+}
+.tech {
+    background: var(--tech);
+    border-color: var(--techBorder);
+}
+.feu {
+    background: var(--feu);
+    border-color: var(--feuBorder);
+}
+.vie {
+    background: var(--vie);
+    border-color: var(--vieBorder);
+}
+.mort-vivant {
+    background: var(--mort-vivant);
+    border-color: var(--mort-vivantBorder);
+}
+.air {
+    background: var(--air);
+    border-color: var(--airBorder);
+}
+.magie {
+    background: var(--magie);
+    border-color: var(--magieBorder);
+}
+
+.legendary {
+    background: var(--lengendary);
+    border-color: black;
+    color: white;
+}
+
+@media all and (max-width: 1184px) {
+    header nav {
+        width: 95%;
+    }
+}
+@media all and (max-width: 750px) {
+    header form {
+        flex-direction: column;
+    }
+    header form > *:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    form #check {
+        flex-direction: row;
+    }
+    form #check label {
+        margin-right: 5px;
+    }
+}
