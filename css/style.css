@@ -17,6 +17,10 @@
     --feuBorder: #B53A32;
     --magie: #B896C9;
     --magieBorder: #4E234E;
+    --lumiere:#F5DF6E;
+    --lumiereBorder: #7B7037;
+    --tenebres:#3E4E6F;
+    --tenebresBorder: #1f2738;
     --lengendary: #50515A;
 }
 
@@ -26,10 +30,16 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;
     background-size: 100vw 100vh;
     font-family: skylandersReg;
 }
+.giants {
+    background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;    
+}
+.trap-team {
+    background: linear-gradient(#090B37 0% 10%, #402671 30% 50%, #225073 65% 75%,#090B37) no-repeat fixed;    
+}
+
 ul {
     list-style: none;
 }
@@ -37,11 +47,28 @@ ul {
 /* Header */
 header {
     text-align: center;
+    margin-top: 10px;
 }
 header .logo {
     width: 300px;
     margin: 5px 0;
 }
+    /* Logo nav Skylanders */
+#precedent, #suivant {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#precedent img, #suivant img {
+    width: 75px;
+    transition: transform 0.5s;
+}
+#precedent img:hover, #suivant img:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+}
+
 header nav {
     display: flex;
     flex-direction: column;
@@ -94,6 +121,7 @@ form #check {
 h1#count {
     margin: 10px 0;
     text-align: center;
+    text-shadow: 0 0 1rem white, 0 0 2rem white;
 }
 
 /* Cartes */
@@ -166,6 +194,14 @@ main .stats > * {
 .magie {
     background: var(--magie);
     border-color: var(--magieBorder);
+}
+.lumière {
+    background: var(--lumiere);
+    border-color: var(--lumiereBorder);
+}
+.ténèbres {
+    background: var(--tenebres);
+    border-color: var(--tenebresBorder);
 }
 
 .legendary {

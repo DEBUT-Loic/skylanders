@@ -1,10 +1,17 @@
 <?php
-$path = 'skylandersGiants.json';
+switch($basename) {
+    case "giants":
+        $path = $chemin.'skylandersGiants.json';
+        break;
+    case "trap-team":
+        $path = $chemin.'skylandersTrapTeam.json';
+        break;
+}
+
 $jsonString = file_get_contents($path);
 $jsonData = json_decode($jsonString, true);
 asort($jsonData);
 $jsonData=array_values($jsonData);
-
 
 if(!empty($_GET["stats"])) {
     function compareStats($a, $b) {
@@ -35,9 +42,9 @@ if(!empty($_GET['element']) || !empty($_GET['version']) || !empty($_GET['special
 foreach($jsonData as $val) {
     ?>
     <article class="<?= strtolower($val["element"]); ?> <?= $val["special"]=="Legendary" ? strtolower($val["special"]) : ""; ?>">
-        <h1><?= $val["special"]!="" ? $val["special"]." ".$val["nom"] : ($val["version"]=="Lightcore" ? $val["version"]." ".$val["nom"] : $val["nom"]); ?></h1>
+        <h1><?= $val["special"]!="" && $val["special"]!==true ? $val["special"]." ".$val["nom"] : ($val["version"]=="Lightcore" ? $val["version"]." ".$val["nom"] : $val["nom"]); ?></h1>
         <div class="imgCard">
-            <img src="img/Giants/<?= $val["special"]!="" ? $val["nom"]."_".$val["special"] : ($val["version"]=="Lightcore" ? $val["nom"]."_".$val["version"] : $val["nom"]); ?>.webp" alt="<?= $val["nom"]; ?>">
+            <img src="<?=$chemin;?>img/<?=str_replace("-","",ucwords($basename,"-"));?>/<?= $val["special"]!="" && $val["special"]!==true ? $val["nom"]."_".$val["special"] : ($val["version"]=="Lightcore" ? $val["nom"]."_".$val["version"] : $val["nom"]); ?>.webp" alt="<?= $val["nom"]; ?>">
             <small><?= $val["version"] ?></small>
         </div>
         <div class="stats">
