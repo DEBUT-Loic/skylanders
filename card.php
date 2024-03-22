@@ -1,5 +1,8 @@
 <?php
 switch($basename) {
+    case "spyros-adventure":
+        $path = $chemin.'skylandersSpyrosAdventure.json';
+        break;
     case "giants":
         $path = $chemin.'skylandersGiants.json';
         break;
@@ -23,11 +26,10 @@ if(!empty($_GET["stats"])) {
     usort($jsonData, 'compareStats');
 }
 
-
 $_GET['stats']="";
 if(!empty($_GET['element']) || !empty($_GET['version']) || !empty($_GET['special'])) {
     $_GET=array_filter($_GET);
-    
+
     foreach($jsonData as $keyJson=>$valJson) {
         foreach($_GET as $keyGet=>$valGet) {
             if(isset($valJson)) {
@@ -40,12 +42,15 @@ if(!empty($_GET['element']) || !empty($_GET['version']) || !empty($_GET['special
 }
 
 foreach($jsonData as $val) {
+    if(!isset($val["version"])) {
+        $val["version"]="";
+    }
     ?>
     <article class="<?= strtolower($val["element"]); ?> <?= $val["special"]=="Legendary" ? strtolower($val["special"]) : ""; ?>">
         <h1><?= $val["special"]!="" && $val["special"]!==true ? $val["special"]." ".$val["nom"] : ($val["version"]=="Lightcore" ? $val["version"]." ".$val["nom"] : $val["nom"]); ?></h1>
         <div class="imgCard">
             <img src="<?=$chemin;?>img/<?=str_replace("-","",ucwords($basename,"-"));?>/<?= $val["special"]!="" && $val["special"]!==true ? $val["nom"]."_".$val["special"] : ($val["version"]=="Lightcore" ? $val["nom"]."_".$val["version"] : $val["nom"]); ?>.webp" alt="<?= $val["nom"]; ?>">
-            <small><?= $val["version"] ?></small>
+            <small><?php if($basename!="spyros-adventure") {echo $val["version"];} ?></small>
         </div>
         <div class="stats">
             <ul>
