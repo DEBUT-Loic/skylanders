@@ -9,6 +9,9 @@ switch($basename) {
     case "trap-team":
         $path = $chemin.'skylandersTrapTeam.json';
         break;
+    case "superchargers":
+        $path = $chemin.'skylandersSuperchargers.json';
+        break;
 }
 
 $jsonString = file_get_contents($path);

@@ -7,7 +7,9 @@
         "vitesse":35,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA01",
+        "collecte":false
     },
     {
         "nom":"Bash",
@@ -17,7 +19,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA02",
+        "collecte":false
     },
     {
         "nom":"Terrafin",
@@ -27,7 +31,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA03",
+        "collecte":false
     },
     {
         "nom":"Dino-Rang",
@@ -37,7 +43,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA04",
+        "collecte":false
     },
     {
         "nom":"Prism Break",
@@ -47,7 +55,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA05",
+        "collecte":false
     },
     {
         "nom":"Drobot",
@@ -57,7 +67,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA06",
+        "collecte":false
     },
     {
         "nom":"Drill Sergeant",
@@ -67,7 +79,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA07",
+        "collecte":false
     },
     {
         "nom":"Boomer",
@@ -77,7 +91,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA08",
+        "collecte":false
     },
     {
         "nom":"Trigger Happy",
@@ -87,7 +103,9 @@
         "vitesse":50,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA09",
+        "collecte":false
     },
     {
         "nom":"Trigger Happy",
@@ -97,7 +115,9 @@
         "vitesse":50,
         "armure":42,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA10",
+        "collecte":false
     },
     {
         "nom":"Cynder",
@@ -107,7 +127,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA11",
+        "collecte":false
     },
     {
         "nom":"Hex",
@@ -117,7 +139,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA12",
+        "collecte":false
     },
     {
         "nom":"Chop Chop",
@@ -127,7 +151,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA13",
+        "collecte":false
     },
     {
         "nom":"Chop Chop",
@@ -137,7 +163,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA14",
+        "collecte":false
     },
     {
         "nom":"Ghost Roaster",
@@ -147,7 +175,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA15",
+        "collecte":false
     },
     {
         "nom":"Camo",
@@ -157,7 +187,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA16",
+        "collecte":false
     },
     {
         "nom":"Zook",
@@ -167,7 +199,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA17",
+        "collecte":false
     },
     {
         "nom":"Stump Smash",
@@ -177,7 +211,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA18",
+        "collecte":false
     },
     {
         "nom":"Stealth Elf",
@@ -187,7 +223,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA19",
+        "collecte":false
     },
     {
         "nom":"Sunburn",
@@ -197,7 +235,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA20",
+        "collecte":false
     },
     {
         "nom":"Eruptor",
@@ -207,7 +247,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA21",
+        "collecte":false
     },
     {
         "nom":"Ignitor",
@@ -217,7 +259,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA22",
+        "collecte":false
     },
     {
         "nom":"Flameslinger",
@@ -227,7 +271,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA23",
+        "collecte":false
     },
     {
         "nom":"Spyro",
@@ -237,7 +283,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA24",
+        "collecte":false
     },
     {
         "nom":"Spyro",
@@ -247,7 +295,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA25",
+        "collecte":false
     },
     {
         "nom":"Spyro",
@@ -257,7 +307,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA26",
+        "collecte":false
     },
     {
         "nom":"Voodood",
@@ -267,7 +319,9 @@
         "vitesse":35,
         "armure":12,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA27",
+        "collecte":false
     },
     {
         "nom":"Double Trouble",
@@ -277,7 +331,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA28",
+        "collecte":false
     },
     {
         "nom":"Wrecking Ball",
@@ -287,7 +343,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA29",
+        "collecte":false
     },
     {
         "nom":"Whirlwind",
@@ -297,7 +355,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA30",
+        "collecte":false
     },
     {
         "nom":"Sonic Boom",
@@ -307,7 +367,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA31",
+        "collecte":false
     },
     {
         "nom":"Warnado",
@@ -317,7 +379,9 @@
         "vitesse":35,
         "armure":30,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA32",
+        "collecte":false
     },
     {
         "nom":"Lightning Rod",
@@ -327,7 +391,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA33",
+        "collecte":false
     },
     {
         "nom":"Zap",
@@ -337,7 +403,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA34",
+        "collecte":false
     },
     {
         "nom":"Wham-Shell",
@@ -347,7 +415,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA35",
+        "collecte":false
     },
     {
         "nom":"Gill Grunt",
@@ -357,7 +427,9 @@
         "vitesse":35,
         "armure":6,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA36",
+        "collecte":false
     },
     {
         "nom":"Slam Bam",
@@ -367,6 +439,8 @@
         "vitesse":35,
         "armure":60,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"SA37",
+        "collecte":false
     }
 ]

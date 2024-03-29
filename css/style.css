@@ -34,13 +34,17 @@ body {
     font-family: skylandersReg;
 }
 .spyros-adventure {
-    background: linear-gradient(#196FB7 0% 67%, #196FB7, #2f5d87) no-repeat fixed;  
+    background: url('../img/cloud.png') no-repeat fixed;
+    background-size: cover;
 }
 .giants {
-    background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;    
+    background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;
 }
 .trap-team {
-    background: linear-gradient(#090B37 0% 10%, #402671 30% 50%, #225073 65% 75%,#090B37) no-repeat fixed;    
+    background: linear-gradient(#090B37 0% 10%, #402671 30% 50%, #225073 65% 75%,#090B37) no-repeat fixed;
+}
+.superchargers {
+    background: linear-gradient(#EA4E15 40%, #FEEE02) no-repeat fixed;
 }
 
 ul {
@@ -90,7 +94,15 @@ header form {
     align-items: center;
     width: 100%;
 }
-form #btnForm, #reset {
+form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btns {
+    margin-top: 10px;
+}
+#btnForm, #reset, #btnCollecte {
     cursor: pointer;
     background: white;
     color: var(--skyLogo);
@@ -100,7 +112,7 @@ form #btnForm, #reset {
     font-family: skylandersReg;
     transition: border 0.5s, color 0.5s, background 0.5s;
 }
-form #btnForm:hover {
+#btnForm:hover {
     color: white;
     background: var(--skyLogo);
     border-color: white;
@@ -114,11 +126,14 @@ form #btnForm:hover {
     background: red;
     border-color: white;
 }
-
-form #check {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#btnCollecte {
+    color: #646464;
+    border-color: #646464;
+}
+#btnCollecte:hover {
+    color: white;
+    background: #646464;
+    border-color: white;
 }
 
 h1#count {
@@ -211,6 +226,30 @@ main .stats > * {
     background: var(--lengendary);
     border-color: black;
     color: white;
+}
+
+/* Collecte */
+#collecteBody {
+    text-align: center;
+}
+#collecteBody h1, #collecteBody h2 {
+    font-family: skylandersReg;
+}
+#collecteBody h1 {
+    margin-bottom: 10px;
+}
+#collecteBody h2 {
+    margin: 10px 0;
+}
+#collecteBody table {
+    margin: 0 auto;
+    text-align: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+#collecteBody td:first-child {
+    margin-right: 10px;
 }
 
 @media all and (max-width: 1184px) {

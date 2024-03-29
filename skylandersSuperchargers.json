@@ -8,7 +8,9 @@
         "vitesse":35,
         "armure":30,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S01",
+        "collecte":false
     },
     {
         "nom":"Hammer Slam Bowser",
@@ -19,7 +21,9 @@
         "vitesse":35,
         "armure":30,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S02",
+        "collecte":false
     },
     {
         "nom":"Spitfire",
@@ -30,7 +34,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S03",
+        "collecte":false
     },
     {
         "nom":"Spitfire",
@@ -41,7 +47,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":8,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S04",
+        "collecte":false
     },
     {
         "nom":"Lava Lance Eruptor",
@@ -52,7 +60,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":8,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S05",
+        "collecte":false
     },
     {
         "nom":"Hurricane Jet-Vac",
@@ -63,7 +73,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S06",
+        "collecte":false
     },
     {
         "nom":"Hurricane Jet-Vac",
@@ -74,7 +86,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":11,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S07",
+        "collecte":false
     },
     {
         "nom":"Stormblade",
@@ -85,7 +99,9 @@
         "vitesse":50,
         "armure":6,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S08",
+        "collecte":false
     },
     {
         "nom":"Nightfall",
@@ -96,7 +112,9 @@
         "vitesse":43,
         "armure":6,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S09",
+        "collecte":false
     },
     {
         "nom":"Smash Hit",
@@ -107,7 +125,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S10",
+        "collecte":false
     },
     {
         "nom":"Smash Hit",
@@ -118,7 +138,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":2,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S11",
+        "collecte":false
     },
     {
         "nom":"Shark Shooter Terrafin",
@@ -129,7 +151,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S12",
+        "collecte":false
     },
     {
         "nom":"Dino-Rang",
@@ -140,7 +164,9 @@
         "vitesse":43,
         "armure":66,
         "coup_critique":26,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S13",
+        "collecte":false
     },
     {
         "nom":"Turbo Charge Donkey Kong",
@@ -151,7 +177,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":2,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S14",
+        "collecte":false
     },
     {
         "nom":"Turbo Charge Donkey Kong",
@@ -162,7 +190,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S15",
+        "collecte":false
     },
     {
         "nom":"Thrillipede",
@@ -173,7 +203,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":8,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S16",
+        "collecte":false
     },
     {
         "nom":"Thrillipede",
@@ -184,7 +216,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S17",
+        "collecte":false
     },
     {
         "nom":"Super Shot Stealth Elf",
@@ -195,7 +229,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S18",
+        "collecte":false
     },
     {
         "nom":"Super Shot Stealth Elf",
@@ -206,7 +242,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":8,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S19",
+        "collecte":false
     },
     {
         "nom":"Zook",
@@ -217,7 +255,9 @@
         "vitesse":43,
         "armure":66,
         "coup_critique":24,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S20",
+        "collecte":false
     },
     {
         "nom":"Astroblast",
@@ -228,7 +268,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S21",
+        "collecte":false
     },
     {
         "nom":"Astroblast",
@@ -239,7 +281,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":16,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S22",
+        "collecte":false
     },
     {
         "nom":"Splat",
@@ -250,7 +294,9 @@
         "vitesse":43,
         "armure":6,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S23",
+        "collecte":false
     },
     {
         "nom":"Splat",
@@ -261,7 +307,9 @@
         "vitesse":43,
         "armure":6,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S24",
+        "collecte":false
     },
     {
         "nom":"Big Bubble Pop Fizz",
@@ -272,7 +320,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S25",
+        "collecte":false
     },
     {
         "nom":"Big Bubble Pop Fizz",
@@ -283,7 +333,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S26",
+        "collecte":false
     },
     {
         "nom":"Voodood",
@@ -294,7 +346,9 @@
         "vitesse":35,
         "armure":48,
         "coup_critique":26,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S27",
+        "collecte":false
     },
     {
         "nom":"High Volt",
@@ -305,7 +359,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":2,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S28",
+        "collecte":false
     },
     {
         "nom":"Double Dare Trigger Happy",
@@ -316,7 +372,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S29",
+        "collecte":false
     },
     {
         "nom":"Power Blue Trigger Happy",
@@ -327,7 +385,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S30",
+        "collecte":false
     },
     {
         "nom":"Boomer",
@@ -338,7 +398,9 @@
         "vitesse":35,
         "armure":54,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S31",
+        "collecte":false
     },
     {
         "nom":"Fiesta",
@@ -349,18 +411,22 @@
         "vitesse":50,
         "armure":6,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S32",
+        "collecte":false
     },
     {
         "nom":"Fiesta",
         "element":"Mort-vivant",
         "version":"Supercharger",
-        "special":"Fightful",
+        "special":"Frightful",
         "sante":763,
         "vitesse":50,
         "armure":6,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S33",
+        "collecte":false
     },
     {
         "nom":"Bone Bash Roller Brawl",
@@ -371,7 +437,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S34",
+        "collecte":false
     },
     {
         "nom":"Bone Bash Roller Brawl",
@@ -382,7 +450,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":16,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S35",
+        "collecte":false
     },
     {
         "nom":"Ghost Roaster",
@@ -393,7 +463,9 @@
         "vitesse":43,
         "armure":60,
         "coup_critique":24,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S36",
+        "collecte":false
     },
     {
         "nom":"Deep Dive Gill Grunt",
@@ -404,7 +476,9 @@
         "vitesse":35,
         "armure":24,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S37",
+        "collecte":false
     },
     {
         "nom":"Dive-Clops",
@@ -415,7 +489,9 @@
         "vitesse":35,
         "armure":30,
         "coup_critique":4,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S38",
+        "collecte":false
     },
     {
         "nom":"Dive-Clops",
@@ -426,7 +502,9 @@
         "vitesse":35,
         "armure":30,
         "coup_critique":6,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S39",
+        "collecte":false
     },
     {
         "nom":"Slam Bam",
@@ -437,6 +515,8 @@
         "vitesse":35,
         "armure":66,
         "coup_critique":22,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"S40",
+        "collecte":false
     }
 ]

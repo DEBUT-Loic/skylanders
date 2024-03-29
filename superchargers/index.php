@@ -3,7 +3,7 @@ include "../templates/chemin.php";
 $basename=basename(__DIR__);
 
 $tabElement=["Air","Eau","Feu","Lumière","Magie","Mort-vivant","Tech","Ténèbres","Terre","Vie"];
-$tabVersion=["Trap Master","Élite","Mini","Série 1","Série 2","Série 3","Série 4"];
+$tabVersion=["Supercharger","Élite"];
 $tabSpecial=["Base","Dérive","Dark","Legendary"];
 $tabStats=["sante"=>"Santé","vitesse"=>"Vitesse","armure"=>"Armure","coup_critique"=>"Coup critique"];
 ?>

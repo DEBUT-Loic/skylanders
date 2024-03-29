@@ -8,7 +8,9 @@
         "vitesse":60,
         "armure":48,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT01",
+        "collecte":false
     },
     {
         "nom":"Head Rush",
@@ -19,7 +21,9 @@
         "vitesse":60,
         "armure":72,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT02",
+        "collecte":false
     },
     {
         "nom":"Wallop",
@@ -30,7 +34,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT03",
+        "collecte":false
     },
     {
         "nom":"Fist Bump",
@@ -41,7 +47,9 @@
         "vitesse":60,
         "armure":72,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT04",
+        "collecte":false
     },
     {
         "nom":"Rocky Roll",
@@ -52,7 +60,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT05",
+        "collecte":false
     },
     {
         "nom":"Bop",
@@ -63,7 +73,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT06",
+        "collecte":false
     },
     {
         "nom":"Terrabite",
@@ -74,7 +86,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT07",
+        "collecte":false
     },
     {
         "nom":"Terrafin",
@@ -85,7 +99,9 @@
         "vitesse":50,
         "armure":54,
         "coup_critique":90,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT08",
+        "collecte":false
     },
     {
         "nom":"Gearshift",
@@ -96,7 +112,9 @@
         "vitesse":70,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT09",
+        "collecte":false
     },
     {
         "nom":"Jawbreaker",
@@ -107,7 +125,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT10",
+        "collecte":false
     },
     {
         "nom":"Jawbreaker",
@@ -118,7 +138,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT11",
+        "collecte":false
     },
     {
         "nom":"Chopper",
@@ -129,7 +151,9 @@
         "vitesse":60,
         "armure":6,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT12",
+        "collecte":false
     },
     {
         "nom":"Tread Head",
@@ -140,7 +164,9 @@
         "vitesse":85,
         "armure":18,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT13",
+        "collecte":false
     },
     {
         "nom":"Drobit",
@@ -151,7 +177,9 @@
         "vitesse":60,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT14",
+        "collecte":false
     },
     {
         "nom":"Trigger Snappy",
@@ -162,7 +190,9 @@
         "vitesse":70,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT15",
+        "collecte":false
     },
     {
         "nom":"Trigger Happy",
@@ -173,7 +203,9 @@
         "vitesse":70,
         "armure":90,
         "coup_critique":150,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT16",
+        "collecte":false
     },
     {
         "nom":"Krypt King",
@@ -184,7 +216,9 @@
         "vitesse":60,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT17",
+        "collecte":false
     },
     {
         "nom":"Krypt King",
@@ -195,7 +229,9 @@
         "vitesse":60,
         "armure":36,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT18",
+        "collecte":false
     },
     {
         "nom":"Short Cut",
@@ -206,7 +242,9 @@
         "vitesse":70,
         "armure":18,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT19",
+        "collecte":false
     },
     {
         "nom":"Bat Spin",
@@ -217,7 +255,9 @@
         "vitesse":85,
         "armure":12,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT20",
+        "collecte":false
     },
     {
         "nom":"Funny Bone",
@@ -228,7 +268,9 @@
         "vitesse":70,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT21",
+        "collecte":false
     },
     {
         "nom":"Eye-Small",
@@ -239,7 +281,9 @@
         "vitesse":50,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT22",
+        "collecte":false
     },
     {
         "nom":"Hijinx",
@@ -250,7 +294,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT23",
+        "collecte":false
     },
     {
         "nom":"Chop Chop",
@@ -261,7 +307,9 @@
         "vitesse":70,
         "armure":72,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT24",
+        "collecte":false
     },
     {
         "nom":"Bushwack",
@@ -272,7 +320,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT25",
+        "collecte":false
     },
     {
         "nom":"Bushwack",
@@ -283,7 +333,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT26",
+        "collecte":false
     },
     {
         "nom":"Tuff Luck",
@@ -294,7 +346,9 @@
         "vitesse":85,
         "armure":48,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT27",
+        "collecte":false
     },
     {
         "nom":"Food Fight",
@@ -305,7 +359,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT28",
+        "collecte":false
     },
     {
         "nom":"Food Fight",
@@ -316,7 +372,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT29",
+        "collecte":false
     },
     {
         "nom":"High Five",
@@ -327,7 +385,9 @@
         "vitesse":60,
         "armure":6,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT30",
+        "collecte":false
     },
     {
         "nom":"Sure Shot Shroomboom",
@@ -338,7 +398,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT31",
+        "collecte":false
     },
     {
         "nom":"Barkley",
@@ -349,7 +411,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT32",
+        "collecte":false
     },
     {
         "nom":"Barkley",
@@ -360,7 +424,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT33",
+        "collecte":false
     },
     {
         "nom":"Whisper Elf",
@@ -371,7 +437,9 @@
         "vitesse":70,
         "armure":12,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT34",
+        "collecte":false
     },
     {
         "nom":"Stealth Elf",
@@ -382,7 +450,9 @@
         "vitesse":70,
         "armure":36,
         "coup_critique":150,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT35",
+        "collecte":false
     },
     {
         "nom":"Ka-Boom",
@@ -393,7 +463,9 @@
         "vitesse":60,
         "armure":12,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT36",
+        "collecte":false
     },
     {
         "nom":"Wildfire",
@@ -404,7 +476,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT37",
+        "collecte":false
     },
     {
         "nom":"Wildfire",
@@ -415,7 +489,9 @@
         "vitesse":60,
         "armure":48,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT38",
+        "collecte":false
     },
     {
         "nom":"Torch",
@@ -426,7 +502,9 @@
         "vitesse":60,
         "armure":12,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT39",
+        "collecte":false
     },
     {
         "nom":"Trail Blazer",
@@ -437,7 +515,9 @@
         "vitesse":85,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT40",
+        "collecte":false
     },
     {
         "nom":"Hog Wild Fryno",
@@ -448,7 +528,9 @@
         "vitesse":60,
         "armure":6,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT41",
+        "collecte":false
     },
     {
         "nom":"Small Fry",
@@ -459,7 +541,9 @@
         "vitesse":60,
         "armure":6,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT42",
+        "collecte":false
     },
     {
         "nom":"Weeruptor",
@@ -470,7 +554,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT43",
+        "collecte":false
     },
     {
         "nom":"Weeruptor",
@@ -481,7 +567,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT44",
+        "collecte":false
     },
     {
         "nom":"Eruptor",
@@ -492,7 +580,9 @@
         "vitesse":50,
         "armure":54,
         "coup_critique":90,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT45",
+        "collecte":false
     },
     {
         "nom":"Blastermind",
@@ -503,7 +593,9 @@
         "vitesse":70,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT46",
+        "collecte":false
     },
     {
         "nom":"Enigma",
@@ -514,7 +606,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT47",
+        "collecte":false
     },
     {
         "nom":"Cobra Cadabra",
@@ -525,7 +619,9 @@
         "vitesse":70,
         "armure":36,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT48",
+        "collecte":false
     },
     {
         "nom":"Cobra Cadabra",
@@ -536,7 +632,9 @@
         "vitesse":70,
         "armure":36,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT49",
+        "collecte":false
     },
     {
         "nom":"Déjà Vu",
@@ -547,7 +645,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT50",
+        "collecte":false
     },
     {
         "nom":"Déjà Vu",
@@ -558,7 +658,9 @@
         "vitesse":60,
         "armure":24,
         "coup_critique":90,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT51",
+        "collecte":false
     },
     {
         "nom":"Fizzy Frenzy Pop Fizz",
@@ -569,7 +671,9 @@
         "vitesse":60,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT52",
+        "collecte":false
     },
     {
         "nom":"Love Potion Pop Fizz",
@@ -580,7 +684,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT53",
+        "collecte":false
     },
     {
         "nom":"Mini-Jini",
@@ -591,7 +697,9 @@
         "vitesse":85,
         "armure":48,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT54",
+        "collecte":false
     },
     {
         "nom":"Spry",
@@ -602,7 +710,9 @@
         "vitesse":70,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT55",
+        "collecte":false
     },
     {
         "nom":"Spyro",
@@ -613,7 +723,9 @@
         "vitesse":70,
         "armure":54,
         "coup_critique":90,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT56",
+        "collecte":false
     },
     {
         "nom":"Gusto",
@@ -624,7 +736,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT57",
+        "collecte":false
     },
     {
         "nom":"Thunderbolt",
@@ -635,7 +749,9 @@
         "vitesse":60,
         "armure":48,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT58",
+        "collecte":false
     },
     {
         "nom":"Blades",
@@ -646,7 +762,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT59",
+        "collecte":false
     },
     {
         "nom":"Blades",
@@ -657,7 +775,9 @@
         "vitesse":70,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT60",
+        "collecte":false
     },
     {
         "nom":"Fling Kong",
@@ -668,7 +788,9 @@
         "vitesse":70,
         "armure":12,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT61",
+        "collecte":false
     },
     {
         "nom":"Full Blast Jet-Vac",
@@ -679,7 +801,9 @@
         "vitesse":70,
         "armure":30,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT62",
+        "collecte":false
     },
     {
         "nom":"Breeze",
@@ -690,7 +814,9 @@
         "vitesse":70,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT63",
+        "collecte":false
     },
     {
         "nom":"Pet-Vac",
@@ -701,7 +827,9 @@
         "vitesse":70,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT64",
+        "collecte":false
     },
     {
         "nom":"Pet-Vac",
@@ -712,7 +840,9 @@
         "vitesse":70,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT65",
+        "collecte":false
     },
     {
         "nom":"Whirlwind",
@@ -723,7 +853,9 @@
         "vitesse":70,
         "armure":54,
         "coup_critique":150,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT66",
+        "collecte":false
     },
     {
         "nom":"Lob-Star",
@@ -734,7 +866,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT67",
+        "collecte":false
     },
     {
         "nom":"Lob-Star",
@@ -745,7 +879,9 @@
         "vitesse":70,
         "armure":42,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT68",
+        "collecte":false
     },
     {
         "nom":"Snap Shot",
@@ -756,7 +892,9 @@
         "vitesse":70,
         "armure":24,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT69",
+        "collecte":false
     },
     {
         "nom":"Snap Shot",
@@ -767,7 +905,9 @@
         "vitesse":70,
         "armure":36,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT70",
+        "collecte":false
     },
     {
         "nom":"Echo",
@@ -778,7 +918,9 @@
         "vitesse":50,
         "armure":42,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT71",
+        "collecte":false
     },
     {
         "nom":"Flip Wreck",
@@ -789,7 +931,9 @@
         "vitesse":60,
         "armure":30,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT72",
+        "collecte":false
     },
     {
         "nom":"Tidal Wave Gill Grunt",
@@ -800,7 +944,9 @@
         "vitesse":50,
         "armure":6,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT73",
+        "collecte":false
     },
     {
         "nom":"Gill Runt",
@@ -811,7 +957,9 @@
         "vitesse":50,
         "armure":6,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT74",
+        "collecte":false
     },
     {
         "nom":"Thumpling",
@@ -822,7 +970,9 @@
         "vitesse":50,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT75",
+        "collecte":false
     },
     {
         "nom":"Gill Grunt",
@@ -833,7 +983,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":150,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT76",
+        "collecte":false
     },
     {
         "nom":"Knight Mare",
@@ -844,7 +996,9 @@
         "vitesse":85,
         "armure":36,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT77",
+        "collecte":false
     },
     {
         "nom":"Blackout",
@@ -855,7 +1009,9 @@
         "vitesse":60,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT78",
+        "collecte":false
     },
     {
         "nom":"Knight Light",
@@ -866,7 +1022,9 @@
         "vitesse":70,
         "armure":12,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT79",
+        "collecte":false
     },
     {
         "nom":"Spotlight",
@@ -877,6 +1035,8 @@
         "vitesse":60,
         "armure":36,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"TT80",
+        "collecte":false
     }
 ]

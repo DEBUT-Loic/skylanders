@@ -8,7 +8,9 @@
         "vitesse":60,
         "armure":24,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G01",
+        "collecte":false
     },
     {
         "nom":"Bouncer",
@@ -19,7 +21,9 @@
         "vitesse":60,
         "armure":36,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G02",
+        "collecte":false
     },
     {
         "nom":"Chill",
@@ -30,7 +34,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G03",
+        "collecte":false
     },
     {
         "nom":"Chill",
@@ -41,7 +47,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G04",
+        "collecte":false
     },
     {
         "nom":"Chill",
@@ -52,7 +60,9 @@
         "vitesse":43,
         "armure":36,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G05",
+        "collecte":false
     },
     {
         "nom":"Chop Chop",
@@ -63,7 +73,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G06",
+        "collecte":false
     },
     {
         "nom":"Crusher",
@@ -74,7 +86,9 @@
         "vitesse":20,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G07",
+        "collecte":false
     },
     {
         "nom":"Crusher",
@@ -85,7 +99,9 @@
         "vitesse":20,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G08",
+        "collecte":false
     },
     {
         "nom":"Cynder",
@@ -96,7 +112,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G09",
+        "collecte":false
     },
     {
         "nom":"Double Trouble",
@@ -107,7 +125,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G10",
+        "collecte":false
     },
     {
         "nom":"Double Trouble",
@@ -118,7 +138,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G11",
+        "collecte":false
     },
     {
         "nom":"Drill Sergeant",
@@ -129,7 +151,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G12",
+        "collecte":false
     },
     {
         "nom":"Drobot",
@@ -140,7 +164,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G13",
+        "collecte":false
     },
     {
         "nom":"Drobot",
@@ -151,7 +177,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G14",
+        "collecte":false
     },
     {
         "nom":"Eruptor",
@@ -162,7 +190,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G15",
+        "collecte":false
     },
     {
         "nom":"Eruptor",
@@ -173,7 +203,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G16",
+        "collecte":false
     },
     {
         "nom":"Eye-Brawl",
@@ -184,7 +216,9 @@
         "vitesse":20,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G17",
+        "collecte":false
     },
     {
         "nom":"Fright Rider",
@@ -195,7 +229,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G18",
+        "collecte":false
     },
     {
         "nom":"Flameslinger",
@@ -206,7 +242,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G19",
+        "collecte":false
     },
     {
         "nom":"Flashwing",
@@ -217,7 +255,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G20",
+        "collecte":false
     },
     {
         "nom":"Flashwing",
@@ -228,7 +268,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G21",
+        "collecte":false
     },
     {
         "nom":"Terrafin",
@@ -239,7 +281,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G22",
+        "collecte":false
     },
     {
         "nom":"Prism Break",
@@ -250,7 +294,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G23",
+        "collecte":false
     },
     {
         "nom":"Prism Break",
@@ -261,7 +307,9 @@
         "vitesse":35,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G24",
+        "collecte":false
     },
     {
         "nom":"Sprocket",
@@ -272,7 +320,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G25",
+        "collecte":false
     },
     {
         "nom":"Trigger Happy",
@@ -283,7 +333,9 @@
         "vitesse":50,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G26",
+        "collecte":false
     },
     {
         "nom":"Hex",
@@ -294,7 +346,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G27",
+        "collecte":false
     },
     {
         "nom":"Hex",
@@ -305,7 +359,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G28",
+        "collecte":false
     },
     {
         "nom":"Tree Rex",
@@ -316,7 +372,9 @@
         "vitesse":20,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G29",
+        "collecte":false
     },
     {
         "nom":"Tree Rex",
@@ -327,7 +385,9 @@
         "vitesse":20,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G30",
+        "collecte":false
     },
     {
         "nom":"Shroomboom",
@@ -338,7 +398,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G31",
+        "collecte":false
     },
     {
         "nom":"Shroomboom",
@@ -349,7 +411,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G32",
+        "collecte":false
     },
     {
         "nom":"Stealth Elf",
@@ -360,7 +424,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G33",
+        "collecte":false
     },
     {
         "nom":"Stealth Elf",
@@ -371,7 +437,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G34",
+        "collecte":false
     },
     {
         "nom":"Zook",
@@ -382,7 +450,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G35",
+        "collecte":false
     },
     {
         "nom":"Stump Smash",
@@ -393,7 +463,9 @@
         "vitesse":43,
         "armure":30,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G36",
+        "collecte":false
     },
     {
         "nom":"Hot Head",
@@ -404,7 +476,9 @@
         "vitesse":20,
         "armure":12,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G37",
+        "collecte":false
     },
     {
         "nom":"Hot Dog",
@@ -415,7 +489,9 @@
         "vitesse":43,
         "armure":6,
         "coup_critique":60,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G38",
+        "collecte":false
     },
     {
         "nom":"Hot Dog",
@@ -426,7 +502,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G39",
+        "collecte":false
     },
     {
         "nom":"Ignitor",
@@ -437,7 +515,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G40",
+        "collecte":false
     },
     {
         "nom":"Ignitor",
@@ -448,7 +528,9 @@
         "vitesse":43,
         "armure":12,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G41",
+        "collecte":false
     },
     {
         "nom":"Ninjini",
@@ -459,7 +541,9 @@
         "vitesse":60,
         "armure":48,
         "coup_critique":80,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G42",
+        "collecte":false
     },
     {
         "nom":"Ninjini",
@@ -470,7 +554,9 @@
         "vitesse":60,
         "armure":54,
         "coup_critique":90,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G43",
+        "collecte":false
     },
     {
         "nom":"Pop Fizz",
@@ -481,7 +567,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G44",
+        "collecte":false
     },
     {
         "nom":"Pop Fizz",
@@ -492,7 +580,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G45",
+        "collecte":false
     },
     {
         "nom":"Pop Fizz",
@@ -503,7 +593,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":40,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G46",
+        "collecte":false
     },
     {
         "nom":"Wrecking Ball",
@@ -514,7 +606,9 @@
         "vitesse":43,
         "armure":24,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G47",
+        "collecte":false
     },
     {
         "nom":"Spyro",
@@ -525,7 +619,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G48",
+        "collecte":false
     },
     {
         "nom":"Swarm",
@@ -536,7 +632,9 @@
         "vitesse":20,
         "armure":12,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G49",
+        "collecte":false
     },
     {
         "nom":"Jet-Vac",
@@ -547,7 +645,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G50",
+        "collecte":false
     },
     {
         "nom":"Jet-Vac",
@@ -558,7 +658,9 @@
         "vitesse":50,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G51",
+        "collecte":false
     },
     {
         "nom":"Jet-Vac",
@@ -569,7 +671,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G52",
+        "collecte":false
     },
     {
         "nom":"Whirlwind",
@@ -580,7 +684,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G53",
+        "collecte":false
     },
     {
         "nom":"Whirlwind",
@@ -591,7 +697,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":70,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G54",
+        "collecte":false
     },
     {
         "nom":"Lightning Rod",
@@ -602,7 +710,9 @@
         "vitesse":43,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G55",
+        "collecte":false
     },
     {
         "nom":"Sonic Boom",
@@ -613,7 +723,9 @@
         "vitesse":50,
         "armure":18,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G56",
+        "collecte":false
     },
     {
         "nom":"Thumpback",
@@ -624,7 +736,9 @@
         "vitesse":20,
         "armure":30,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G57",
+        "collecte":false
     },
     {
         "nom":"Slam Bam",
@@ -635,7 +749,9 @@
         "vitesse":35,
         "armure":36,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G58",
+        "collecte":false
     },
     {
         "nom":"Slam Bam",
@@ -646,7 +762,9 @@
         "vitesse":35,
         "armure":60,
         "coup_critique":10,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G59",
+        "collecte":false
     },
     {
         "nom":"Gill Grunt",
@@ -657,7 +775,9 @@
         "vitesse":35,
         "armure":6,
         "coup_critique":50,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G60",
+        "collecte":false
     },
     {
         "nom":"Zap",
@@ -668,7 +788,9 @@
         "vitesse":50,
         "armure":24,
         "coup_critique":30,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G61",
+        "collecte":false
     },
     {
         "nom":"Bash",
@@ -679,6 +801,8 @@
         "vitesse":35,
         "armure":12,
         "coup_critique":20,
-        "puissance_elementaire":25
+        "puissance_elementaire":25,
+        "id":"G62",
+        "collecte":false
     }
 ]

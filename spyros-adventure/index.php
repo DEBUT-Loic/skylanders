@@ -32,7 +32,7 @@ $tabStats=["sante"=>"Santé","vitesse"=>"Vitesse","armure"=>"Armure","coup_criti
             <?php include("../templates/menu-logo.php"); ?>
         </section>
         <nav>
-            <form method="get">
+            <form id="filtreForm" method="get">
                 <div>
                     <label for="element">Élément</label>
                     <select name="element" id="element">
@@ -67,11 +67,13 @@ $tabStats=["sante"=>"Santé","vitesse"=>"Vitesse","armure"=>"Armure","coup_criti
                             <?php
                         } ?>
                     </select>
-                </div>
-                
-                <input type="submit" id="btnForm" value="Filtrer">
+                </div>                
             </form>
-            <button id="reset">Réinitialiser</button>
+            <div id="btns">
+                <input type="submit" id="btnForm" form="filtreForm" value="Filtrer">
+                <button id="reset">Réinitialiser</button>
+                <a href="../collecte.php"><button id="btnCollecte">Collection</button></a>
+            </div>
         </nav>
     </header>
     
