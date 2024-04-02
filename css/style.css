@@ -102,7 +102,7 @@ form > div {
 #btns {
     margin-top: 10px;
 }
-#btnForm, #reset, #btnCollecte {
+#btnForm, #btnChoixJeu, #reset, #btnCollecte, #btnCollection {
     cursor: pointer;
     background: white;
     color: var(--skyLogo);
@@ -112,7 +112,7 @@ form > div {
     font-family: skylandersReg;
     transition: border 0.5s, color 0.5s, background 0.5s;
 }
-#btnForm:hover {
+#btnForm:hover, #btnChoixJeu:hover {
     color: white;
     background: var(--skyLogo);
     border-color: white;
@@ -126,11 +126,11 @@ form > div {
     background: red;
     border-color: white;
 }
-#btnCollecte {
+#btnCollecte, #btnCollection {
     color: #646464;
     border-color: #646464;
 }
-#btnCollecte:hover {
+#btnCollecte:hover, #btnCollection:hover {
     color: white;
     background: #646464;
     border-color: white;
@@ -178,6 +178,25 @@ main .stats {
 }
 main .stats > * {
     margin: 0 auto;
+}
+main .collecte {
+    width: 50%;
+    margin: 0 auto;
+	border: 1px solid;
+    padding: 5px 0;
+}
+.collecte.trouve {
+    color: green;
+	border-color: green;
+	background: #e7ffde;
+}
+.collecte.search {
+    color: red;
+	border-color: red;
+	background: #ffdede;
+}
+main .collecte > * {
+    text-align: center;
 }
 
 /* Carte élément */
@@ -236,15 +255,23 @@ main .stats > * {
     font-family: skylandersReg;
 }
 #collecteBody h1 {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 #collecteBody h2 {
     margin: 10px 0;
 }
+
+#collecteBody #collectionForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+#collecteBody #btnCollection {
+    margin: 10px auto 0 auto;
+}
 #collecteBody table {
     margin: 0 auto;
     text-align: left;
-    width: 25%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }

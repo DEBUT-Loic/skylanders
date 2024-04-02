@@ -8,6 +8,6 @@
 
 <div id="suivant">
     <a href="<?=$chemin?>trap-team"> <img src="<?=$chemin;?>img/logo/skylandersTrapTeam.png" alt="Skylanders Trap Team"> </a>
-    <a href="<?=$chemin?>superchargers"> <img src="<?=$chemin;?>img/logo/skylandersSuperChargers.png" alt="Skylanders SuperChargers"> </a>
+    <a href="<?=$chemin?>superchargers"> <img src="<?=$chemin;?>img/logo/skylandersSuperchargers.png" alt="Skylanders Superchargers"> </a>
     <a href=""> <img src="<?=$chemin;?>img/logo/skylandersImaginators.png" alt="Skylanders Imaginators"> </a>
 </div>

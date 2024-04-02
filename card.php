@@ -30,13 +30,16 @@ if(!empty($_GET["stats"])) {
 }
 
 $_GET['stats']="";
-if(!empty($_GET['element']) || !empty($_GET['version']) || !empty($_GET['special'])) {
+if(!empty($_GET['element']) || !empty($_GET['version']) || !empty($_GET['special']) || !empty($_GET['collecte'])) {
     $_GET=array_filter($_GET);
+    if($_GET['collecte']=="false") {
+       $_GET['collecte']=filter_var($_GET['collecte'], FILTER_VALIDATE_BOOLEAN); 
+    }
 
     foreach($jsonData as $keyJson=>$valJson) {
         foreach($_GET as $keyGet=>$valGet) {
             if(isset($valJson)) {
-                if(($valJson[$keyGet]!=$valGet && $keyGet!="special") || ($valGet=="Base" && $valJson[$keyGet]!==null) || ($valGet=="Dérive" && $valJson[$keyGet]===null) || ($valGet=="Legendary" && $valJson[$keyGet]!="Legendary")) {
+                if(($valJson[$keyGet]!=$valGet && ($keyGet!="special" || $keyGet=="collecte")) || ($valGet=="Base" && $valJson[$keyGet]!==null) || ($valGet=="Dérive" && $valJson[$keyGet]===null) || ($valGet=="Legendary" && $valJson[$keyGet]!="Legendary")) {
                     unset($jsonData[$keyJson]);
                 }
             }
@@ -64,6 +67,8 @@ foreach($jsonData as $val) {
                 <li><b>Puissance élémentaire</b> : <?= $val["puissance_elementaire"]; ?></li>
             </ul>
         </div>
+        
+        <?php if($val["collecte"]==true) { ?> <div class="collecte trouve"><p>Trouvé !</p> </div><?php } else { ?><div class="collecte search"><p>Recherche...</p> <?php } ?>        
     </article>
     <?php
 }
