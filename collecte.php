@@ -74,19 +74,22 @@ if(isset($_POST["btnCollection"])) {
         <h2>Skylanders <?=$title;?></h2>
         <form id="collectionForm" method="post">
             <table>
+            <tr>
                 <?php
                 $i=1;
                 foreach($jsonData as $val) {
                     $_GET["jeu"]=="spyros-adventure" ? $val["version"]="" : $val["version"];
                     ?>
-                    <tr>
-                        <td><input type="checkbox" name="skylanders[]" value="<?=$val["id"]?>" id="skylanders<?=$i;?>" <?= $val["collecte"]==true ? "checked" : ""?>></td>
-                        <td><label for="skylanders<?=$i;?>"><?= $val["special"]!="" && $val["special"]!==true ? $val["special"]." ".$val["nom"] : ($val["version"]=="Lightcore" ? $val["version"]." ".$val["nom"] : $val["nom"]); ?></label></td>
-                    </tr>
+                    <td>
+                        <img src="<?=$chemin;?>img/<?=str_replace("-","",ucwords($_GET['jeu'],"-"));?>/<?= $val["special"]!="" && $val["special"]!==true ? $val["nom"]."_".$val["special"] : ($val["version"]=="Lightcore" ? $val["nom"]."_".$val["version"] : $val["nom"]); ?>.webp" alt="<?= $val["nom"]; ?>">
+                        <label for="skylanders<?=$i;?>"><?= $val["special"]!="" && $val["special"]!==true ? $val["special"]." ".$val["nom"] : ($val["version"]=="Lightcore" ? $val["version"]." ".$val["nom"] : $val["nom"]); ?></label>
+                        <input type="checkbox" name="skylanders[]" value="<?=$val["id"]?>" id="skylanders<?=$i;?>" <?= $val["collecte"]==true ? "checked" : ""?>>
+                    </td>
                     <?php
                     $i++;
                 }
                 ?>
+                </tr>
             </table>
             <input type="submit" id="btnCollection" form="collectionForm" name="btnCollection" value="Collecté">
         </form>
