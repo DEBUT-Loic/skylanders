@@ -25,6 +25,20 @@
     </div>
     <?php } ?>
 
+    <?php if(isset($tabClasse)) { ?>
+    <div>
+        <label for="classe">Classe</label>
+        <select name="classe" id="classe">
+            <option value="" selected>--Sélectionner une valeur--</option>
+            <?php foreach($tabClasse as $valClasse) {
+                ?>
+                <option value="<?= $valClasse; ?>" <?= isset($_GET["classe"]) && $_GET["classe"]==$valClasse ? "selected" : ""?>><?= $valClasse; ?></option>
+                <?php
+            } ?>
+        </select>
+    </div>
+    <?php } ?>
+
     <div>
         <label for="special">Spécial</label>
         <select name="special" id="special">
