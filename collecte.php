@@ -19,6 +19,10 @@ if(!empty($_GET['jeu'])) {
             $path = 'skylandersSuperchargers.json';
             $title = "Superchargers";
             break;
+        case "imaginators":
+            $path = 'skylandersImaginators.json';
+            $title = "Imaginators";
+            break;
     }
 
     $valide=$_GET['jeu'];
@@ -55,7 +59,7 @@ if(isset($_POST["btnCollection"])) {
     <link rel="stylesheet" href="<?=$chemin;?>css/style.css">
     <title>Collection Skylanders</title>
 </head>
-<body id="collecteBody">
+<body id="collecteBody" class="<?= $valide; ?>">
     <a href="<?=$chemin;?>">Retour à l'index</a>
     <h1>Collection Skylanders</h1>
     <form id="choixJeuForm" method="get">
@@ -64,6 +68,7 @@ if(isset($_POST["btnCollection"])) {
             <option value="giants" <?=$valide=="giants" ? "selected" : "";?>>Giants</option>
             <option value="trap-team" <?=$valide=="trap-team" ? "selected" : "";?>>Trap Team</option>
             <option value="superchargers" <?=$valide=="superchargers" ? "selected" : "";?>>Superchargers</option>
+            <option value="imaginators" <?=$valide=="imaginators" ? "selected" : "";?>>Imaginators</option>
         </select>
         <input type="submit" id="btnChoixJeu" form="choixJeuForm">
     </form>

@@ -46,6 +46,10 @@ body {
 .superchargers {
     background: linear-gradient(#EA4E15 40%, #FEEE02) no-repeat fixed;
 }
+.imaginators {
+    background: url('../img/imagine.png') no-repeat fixed;
+    background-size: cover;
+}
 
 ul {
     list-style: none;
@@ -153,7 +157,7 @@ main article {
     border: 2px solid;
     border-radius: 20px;
     width: 285px;
-    height: 350px;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,7 +185,7 @@ main .stats > * {
 }
 main .collecte {
     width: 50%;
-    margin: 0 auto;
+    margin: 5px auto;
 	border: 1px solid;
     padding: 5px 0;
 }
@@ -240,6 +244,15 @@ main .collecte > * {
     background: var(--tenebres);
     border-color: var(--tenebresBorder);
 }
+.imagine {
+    background: white;
+    border-color: black;
+}
+.kaos {
+    background: black;
+    color: white;
+    border-color: white;
+}
 
 .legendary {
     background: var(--lengendary);
@@ -248,8 +261,40 @@ main .collecte > * {
 }
 
 /* Collecte */
+#collecteBody.spyros-adventure {
+    background: radial-gradient(#9ac810 50%, #3b9636);
+}
+#collecteBody.giants {
+    background: radial-gradient(#ef5d10 50%, #a73e05);
+}
+#collecteBody.swap-force {
+    background: radial-gradient(#97c0c6 50%, #2d758e);
+}
+#collecteBody.trap-team {
+    background: radial-gradient(#ef0916 25%, #740400);
+    color: white;
+}
+#collecteBody.superchargers {
+    background: radial-gradient(#cd7f32 50%, #974826);
+}
+#collecteBody.imaginators {
+    background: radial-gradient(#4f4f4f 50%, #000000);
+    color: white;
+}
+
 #collecteBody {
     text-align: center;
+}
+#collecteBody a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#collecteBody a:hover {
+    text-decoration: underline;
 }
 #collecteBody h1, #collecteBody h2 {
     font-family: skylandersReg;
@@ -266,13 +311,19 @@ main .collecte > * {
     flex-wrap: wrap;
 }
 #collecteBody #btnCollection {
-    margin: 10px auto 0 auto;
+    margin: 10px auto;
     width: 85%;
+    background: #646464;
+    color: white;
+}
+#collecteBody #btnCollection:hover {
+    background: black;
+    border-color: black;
 }
 #collecteBody table {
     margin: 0 auto;
     width: 100%;
-    display: table;
+    display: inline-table;
     justify-content: center;
     flex-wrap: wrap;
     border-collapse: collapse;
@@ -280,16 +331,18 @@ main .collecte > * {
 #collecteBody table tr {
     display: flex;
     flex-wrap: wrap;
-    border-collapse: collapse;
+    justify-content: center;
 }
 #collecteBody table td {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 10%;
+    width: 190px;
     min-height: 215px;
     border: 1px solid black;
-    border-collapse: collapse;
+}
+#collecteBody label {
+    word-break: break-word;
 }
 
 @media all and (max-width: 1184px) {
