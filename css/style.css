@@ -40,6 +40,9 @@ body {
 .giants {
     background: linear-gradient(#EA4E15, #FEEE02 33% 67%, #EA4E15) no-repeat fixed;
 }
+.swap-force {
+    background: linear-gradient(#4bb234, #b9cd0c 33% 67%, #4bb234) no-repeat fixed;
+}
 .trap-team {
     background: linear-gradient(#090B37 0% 10%, #402671 30% 50%, #225073 65% 75%,#090B37) no-repeat fixed;
 }

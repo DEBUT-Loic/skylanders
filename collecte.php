@@ -11,6 +11,9 @@ if(!empty($_GET['jeu'])) {
             $path = 'skylandersGiants.json';
             $title = "Giants";
             break;
+        case "swap-force":
+            $path = $chemin.'skylandersSwapForce.json';
+            break;
         case "trap-team":
             $path = 'skylandersTrapTeam.json';
             $title = "Trap Team";

@@ -6,6 +6,9 @@ switch($basename) {
     case "giants":
         $path = $chemin.'skylandersGiants.json';
         break;
+    case "swap-force":
+        $path = $chemin.'skylandersSwapForce.json';
+        break;
     case "trap-team":
         $path = $chemin.'skylandersTrapTeam.json';
         break;
